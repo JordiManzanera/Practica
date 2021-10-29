@@ -14,5 +14,49 @@ h4{
 }
 
 .Fondo{
+background-color: white;
+}
+
+.Fondo img{
+float: left;
+margin-left: 0.5em;
+margin-right: 0.5em;
+margin-top: 0.5em;
+margin-bottom: 0.5em;
+}
+
+.Fondo:after{
+  display: table;
+  clear: both;
+  content: " ";
+}
+
+
+.globo-naranja{
+  position: relative;
+  background-color: #f28226;
+  width: 80%;
+  left: 2em;
+  border: thick dashed white;
+  padding: 0.5em;
+
+}
+
+.container-verde{
+  padding: 0 2em;
+}
+
+.globo-verde{
+  background-image: url("verde.png");
+  border-radius: 1em;
+}
+
+.globo-marron{
+  background-color: #b45421;
+  margin-left: 4em;
+  margin-right: 2em;
+  border: thick solid white;
+  border-top: none;
+  border-bottom: none;
 
 }
